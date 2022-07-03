@@ -1,4 +1,5 @@
-﻿void Palindrom(int num)
+﻿
+void Palindrom(int num)
 {   if(num/10000 == num%10 && num / 1000 % 10 == (num % 100) / 10)
     Console.WriteLine("YES");
     else 
