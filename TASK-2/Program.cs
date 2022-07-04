@@ -1,5 +1,4 @@
-﻿Qube(n);
-void Qube(int num)
+﻿void Qube(int num)
 {
     int current = 1;
     while(current <= num)
@@ -10,4 +9,4 @@ void Qube(int num)
 }
 Console.WriteLine("Input a number: ");
 int n = Convert.ToInt32(Console.ReadLine());
-
+Qube(n);
